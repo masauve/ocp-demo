@@ -3,5 +3,4 @@ kind: APIManager
 metadata:
   name: apimanager
 spec:
-  wildcardDomain:
-  - apps.ocp.myocp.net
+  wildcardDomain: apps.ocp.myocp.net
