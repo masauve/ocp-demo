@@ -1,0 +1,10 @@
+apiVersion: apps.3scale.net/v1alpha1
+kind: APIManager
+metadata:
+  name: apimanager
+  namespace: amp
+spec:
+  imageStreamTagImportInsecure: false
+  monitoring:
+    enabled: true
+  wildcardDomain: example.com

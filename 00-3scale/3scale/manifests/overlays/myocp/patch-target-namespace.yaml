@@ -1,0 +1,7 @@
+apiVersion: apps.3scale.net/v1alpha1
+kind: APIManager
+metadata:
+  name: apimanager
+spec:
+  wildcardDomain:
+  - apps.ocp.myocp.net
